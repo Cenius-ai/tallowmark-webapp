@@ -1,0 +1,4 @@
+# Tallowmark has NO runtime dependencies: Python 3.9+ standard library only.
+# pytest is the only declared dependency and it is used exclusively by the test
+# suite (`python3 -m pytest`). The console script is wired up in pyproject.toml.
+pytest==9.1.1

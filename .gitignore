@@ -1,0 +1,11 @@
+# local state and build output
+.env
+*.egg-info/
+build/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.tmp
+store.json
+.ruff_cache/
